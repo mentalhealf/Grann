@@ -13,3 +13,7 @@ body {
 .social-list {
     list-style: none;
 }
+
+.unique-section {
+    background-image: url("images/egg-back.jpg");
+}

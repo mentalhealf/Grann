@@ -1,19 +1,88 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  outline: 2px solid seagreen;
+}
+
+.header {
+  display: flex;
+  outline: 2px solid slateblue;
+  margin: 0 auto;
+  width: 1240px;
+  justify-content: center;
+  background-color: #f5eee0;
 }
 
 .nav-list {
-    list-style: none;
+  list-style: none;
+  display: flex;
+  gap: 114px;
+  align-items: center;
+}
+.nav-a {
+  text-decoration: none;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.desert-section {
+    background-color: #f5eee0;
+    margin-top: -46px;
+}
+
+.author-desert {
+    text-align: center;
+    font-family: monospace;
+    font-size: 58px;
+    color: #705A66;
+}
+
+.cream-spoon {
+  position: absolute;
+  left: 600px;
+}
+
+.shu {
+  position: absolute;
+  top: 194px;
+  left: 281px;
+}
+
+.cake {
+  position: relative;
+  left: -80px;
+  top: -106px;
+}
+
+.tart {
+  position: relative;
+  left: -65px;
 }
 
 .picture-list {
-    list-style: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .social-list {
-    list-style: none;
+  list-style: none;
 }
 
 .unique-section {
-    background-image: url("images/egg-back.jpg");
+  background-image: url("images/egg-back.jpg");
+}
+
+.wine-tart-back {
+  width: 100%;
 }

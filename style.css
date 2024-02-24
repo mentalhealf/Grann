@@ -69,6 +69,11 @@ body {
   left: -65px;
 }
 
+/* .food-list {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 .picture-list {
   list-style: none;
   display: flex;

@@ -50,13 +50,13 @@ body {
 
 .cream-spoon {
   position: absolute;
-  left: 600px;
+  left: 816px;
 }
 
 .shu {
   position: absolute;
   top: 194px;
-  left: 281px;
+  left: 417px;
 }
 
 .cake {
@@ -114,8 +114,6 @@ body {
 .food-item {
   width: 605px;
   justify-content: center;
-
-
 }
 
 .best-h2 {
@@ -257,8 +255,7 @@ body {
   justify-content: center;
 }
 
-.dilivery-svg {
-}
+.dilivery-svg {}
 
 .dilivery-item {
   width: 288px;
@@ -283,4 +280,94 @@ body {
 
 .wine-tart-back {
   width: 100%;
+}
+
+.inst-list {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  padding-left: 0;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.inst-a {
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f5eee0;
+  padding: 19px 154px 19px 154px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 604px;
+  margin-top: 62px;
+}
+
+.giigle-line {
+  position: relative;
+  top: -114px;
+  left: 211px;
+}
+
+.line-top {
+  position: relative;
+  left: 855px;
+  top: -163px;
+}
+
+
+.line-bottom {
+  position: relative;
+  left: 828px;
+  top: -147px;
+}
+
+.footer {
+  background-color: #705A66;
+  display: flex;
+  justify-content: space-between;
+  color: #F5F7F8;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.foot-logo {
+  display: block;
+  width: 255px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+
+}
+
+.foot-inst {
+  fill: #F5F7F8;
+}
+
+.foot-a {
+  text-decoration: none;
+  color: #F5F7F8;
+}
+
+.foot-teleg {
+  fill: #F5F7F8;
+}
+
+.foot-div {
+  outline: 2px solid red;
+}
+
+.foot-div-2 {
+  outline: 2px solid royalblue;
 }

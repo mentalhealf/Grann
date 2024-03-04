@@ -45,7 +45,7 @@ body {
   text-align: center;
   font-family: monospace;
   font-size: 58px;
-  color: #705A66;
+  color: #705a66;
 }
 
 .cream-spoon {
@@ -118,7 +118,7 @@ body {
 
 .best-h2 {
   text-align: center;
-  color: #705A66;
+  color: #705a66;
   font-family: cursive;
   font-size: 100px;
   font-weight: 900;
@@ -196,7 +196,6 @@ body {
   line-height: 29px;
   letter-spacing: 0%;
   text-align: center;
-
 }
 
 .why-item-1 {
@@ -224,7 +223,6 @@ body {
   position: relative;
   top: -255px;
   left: 12px;
-
 }
 
 .why-img {
@@ -255,14 +253,11 @@ body {
   justify-content: center;
 }
 
-.dilivery-svg {}
-
 .dilivery-item {
   width: 288px;
   margin: 0 auto;
   text-align: center;
 }
-
 
 .picture-list {
   list-style: none;
@@ -274,8 +269,165 @@ body {
   list-style: none;
 }
 
+.name-anna {
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.name-p {
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .unique-section {
   background-image: url("images/egg-back.jpg");
+}
+
+.unique-p {
+  color: rgb(245, 247, 248);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  position: static;
+  width: 393px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.name-p-2 {
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.name-p-3 {
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 499px;
+  height: 286px;
+}
+
+.name-div {
+  display: block;
+  flex-wrap: wrap;
+  position: relative;
+  left: 688px;
+  top: -688px;
+}
+
+.anna-img {
+  padding-left: 100px;
+}
+
+.unique-name {
+  position: relative;
+  width: 499px;
+  height: 60px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: rgb(245, 247, 248);
+  border: none;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.unique-tel {
+  position: relative;
+  width: 499px;
+  height: 60px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: rgb(245, 247, 248);
+  border: none;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.textarea-u {
+  position: relative;
+  width: 499px;
+  height: 180px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: rgb(245, 247, 248);
+  border: none;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.button-u {
+  position: relative;
+  width: 499px;
+  height: 67px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: rgb(245, 238, 224);
+  border: none;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .wine-tart-back {
@@ -322,7 +474,6 @@ body {
   top: -163px;
 }
 
-
 .line-bottom {
   position: relative;
   left: 828px;
@@ -330,10 +481,10 @@ body {
 }
 
 .footer {
-  background-color: #705A66;
+  background-color: #705a66;
   display: flex;
   justify-content: space-between;
-  color: #F5F7F8;
+  color: #f5f7f8;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 300;
@@ -348,20 +499,19 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-
 }
 
 .foot-inst {
-  fill: #F5F7F8;
+  fill: #f5f7f8;
 }
 
 .foot-a {
   text-decoration: none;
-  color: #F5F7F8;
+  color: #f5f7f8;
 }
 
 .foot-teleg {
-  fill: #F5F7F8;
+  fill: #f5f7f8;
 }
 
 .foot-div {

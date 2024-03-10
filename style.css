@@ -10,7 +10,7 @@ body {
 
 .header {
   display: flex;
-  outline: 2px solid slateblue;
+  /* outline: 2px solid slateblue; */
   margin: 0 auto;
   width: 1240px;
   justify-content: center;
@@ -22,6 +22,26 @@ body {
   display: flex;
   gap: 114px;
   align-items: center;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  left: 1101px;
+  top: -555px;
+}
+
+.social-item {
+
+}
+
+.social-p {
+    position: relative;
+    left: 832px;
+    top: -770px;
 }
 
 .nav-a {
@@ -67,7 +87,7 @@ body {
 
 .tart {
   position: relative;
-  left: -65px;
+  left: -11px;
 }
 
 .food-list {
@@ -265,9 +285,6 @@ body {
   flex-wrap: wrap;
 }
 
-.social-list {
-  list-style: none;
-}
 
 .name-anna {
   color: rgb(112, 90, 102);
@@ -292,6 +309,14 @@ body {
 
 .unique-section {
   background-image: url("images/egg-back.jpg");
+  display: flex;
+  justify-content: space-around;
+}
+
+.unique-wrap {
+  /* outline: 2px dashed red; */
+  position: relative;
+  top: 71px;
 }
 
 .unique-p {
@@ -325,6 +350,7 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .name-p-3 {
   color: rgb(112, 90, 102);
   font-family: Montserrat;
@@ -359,7 +385,7 @@ body {
   bottom: 0;
   border-radius: 10px;
   background: rgb(245, 247, 248);
-  border: none;
+  outline: none;
   color: rgb(112, 90, 102);
   font-family: Montserrat;
   font-size: 18px;
@@ -367,6 +393,19 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+  padding: 32px;
+  border: none;
+}
+
+.unique-form {
+  /* border: 2px solid rebeccapurple; */
+  width: 499px;
+  height: 439px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin-top: 62.5px;
+  margin-bottom: 62.5px;
 }
 
 .unique-tel {
@@ -379,7 +418,7 @@ body {
   bottom: 0;
   border-radius: 10px;
   background: rgb(245, 247, 248);
-  border: none;
+  outline: none;
   color: rgb(112, 90, 102);
   font-family: Montserrat;
   font-size: 18px;
@@ -387,6 +426,8 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+  padding: 32px;
+  border: none;
 }
 
 .textarea-u {
@@ -399,7 +440,7 @@ body {
   bottom: 0;
   border-radius: 10px;
   background: rgb(245, 247, 248);
-  border: none;
+  outline: none;
   color: rgb(112, 90, 102);
   font-family: Montserrat;
   font-size: 18px;
@@ -407,6 +448,8 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+  border: none;
+  padding: 32px;
 }
 
 .button-u {
@@ -428,10 +471,27 @@ body {
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
+
+}
+
+.button-u:hover {
+  cursor: pointer;
+  background: rgb(238, 225, 197);
 }
 
 .wine-tart-back {
   width: 100%;
+}
+
+.inst-h2 {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(112, 90, 102);
+  /* font-family: Moniqa; */
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 104px;
+  letter-spacing: 0%;
 }
 
 .inst-list {
@@ -490,18 +550,24 @@ body {
   font-weight: 300;
 }
 
-.foot-logo {
-  display: block;
-  width: 255px;
-}
 
 .footer-list {
   list-style: none;
   display: flex;
   gap: 40px;
+  padding-left: 0;
+}
+
+.foot-viber {
+  fill: #f5f7f8;
+  margin-right: 188px;
 }
 
 .foot-inst {
+  fill: #f5f7f8;
+}
+
+.foot-teleg {
   fill: #f5f7f8;
 }
 
@@ -510,14 +576,31 @@ body {
   color: #f5f7f8;
 }
 
-.foot-teleg {
-  fill: #f5f7f8;
+.foot-logo {
+  display: block;
+  width: 255px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 164px;
+  margin-bottom: 100px;
 }
 
 .foot-div {
-  outline: 2px solid red;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 190px;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 
 .foot-div-2 {
-  outline: 2px solid royalblue;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 190px;
+  margin-left: 100px;
+  margin-right: -58px;
+  margin-bottom: 100px;
 }

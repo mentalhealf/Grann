@@ -49,11 +49,11 @@
           <li><img class="tart" src="images/tart.png" alt="tart" /></li>
         </ul>
         <ul class="social-list">
-          <li><img src="svg/teleg.svg" alt="teleg" /></li>
-          <li><img src="svg/facebook.svg" alt="facebook" /></li>
-          <li><img src="svg/inst.svg" alt="inst" /></li>
+          <li class="social-item"><img src="svg/teleg.svg" alt="teleg" /></li>
+          <li class="social-item"><img src="svg/facebook.svg" alt="facebook" /></li>
+          <li class="social-item"><img src="svg/inst.svg" alt="inst" /></li>
         </ul>
-        <p>Виготовляємо десерти під замовлення з любов’ю та користю</p>
+        <p class="social-p">Виготовляємо десерти під<br> замовлення з любов’ю та користю</p>
       </section>
       <section>
         <ul class="food-list">
@@ -111,7 +111,7 @@
             <h3 class="why-h3-ex">ЗРУЧНА ВАГА ТОРТУ</h3>
             <p class="why-p why-p-ex">
               Не обов'язково чекати на свято, щоб замовити смачненьке. Наша
-              кондитерська робить мініторти і десерти. <br> <br>  Мінімальна вага
+              кондитерська робить мініторти і десерти. <br> <br> Мінімальна вага
               замовлення:Наполеон і медовик - від 0,5 кг.Мусові торти - від
               0,8 кг.
             </p>
@@ -166,24 +166,28 @@
         </div>
       </section>
       <section class="unique-section">
-        <img src="svg/make-unique.svg" alt="unique" />
-        <p class="unique-p">
-          Ви можете замовити свій власний рецепт десерту, який вам буде до
-          вподоби. Заповніть заявку та я зв’яжусь з вами, аби обговорити
-          деталі замовлення.
-        </p>
-        <form>
+        <div class="unique-wrap">
+          <img src="svg/make-unique.svg" alt="unique" />
+          <p class="unique-p">
+            Ви можете замовити свій власний рецепт десерту, який вам буде до
+            вподоби. Заповніть заявку та я зв’яжусь з вами, аби обговорити
+            деталі замовлення.
+          </p>
+        </div>
+        <form class="unique-form">
           <label>
             <input class="unique-name" type="text" placeholder="Ім’я" />
           </label>
           <label>
             <input class="unique-tel" type="tel" placeholder="Номер телефону" />
           </label>
-          <textarea class="textarea-u" name="" id="" cols="30" rows="10" placeholder="Опишіть ваші побажання:"></textarea>
+          <textarea class="textarea-u" name="" id="" cols="30" rows="10"
+            placeholder="Опишіть ваші побажання:"></textarea>
           <button class="button-u" type="submit">Надіслати</button>
         </form>
       </section>
       <section class="inst-section">
+        <h2 class="inst-h2">Instagram</h2>
         <ul class="inst-list">
           <li class="inst-item">
             <img src="images/instagram/tart-inst.jpg" alt="inst-tart" />
@@ -215,24 +219,26 @@
         <br>
         <a class="foot-a" href="tel:+380999876240">Tel: +38(099) 987 62 40</a>
       </div>
+      <a class="foot-logo-a" href="#">
         <img class="foot-logo" src="svg/logoGrann.svg" alt="logoGrann" />
-        <div class="foot-div-2">
-          <ul class="footer-list">
-            <li class="footer-item">
-              <img class="foot-inst" src="svg/Inst-2.svg" alt="inst" />
-            </li>
-            <li class="footer-item">
-              <img class="foot-teleg" src="svg/teleg-2.svg" alt="teleg" />
-            </li>
-            <li class="footer-item">
-              <img src="svg/viber.svg" alt="viber" />
-            </li>
-          </ul>
-          <a class="foot-a" href="#">Політика конфіденційності</a>
-          <br>
-          <a class="foot-a" href="#">Договір оферти</a>
-        </div>
-        </footer>
+      </a>
+      <div class="foot-div-2">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <img class="foot-inst" src="svg/Inst-2.svg" alt="inst" />
+          </li>
+          <li class="footer-item">
+            <img class="foot-teleg" src="svg/teleg-2.svg" alt="teleg" />
+          </li>
+          <li class="footer-item">
+            <img class="foot-viber" src="svg/viber.svg" alt="viber" />
+          </li>
+        </ul>
+        <a class="foot-a" href="#">Політика конфіденційності</a>
+        <br>
+        <a class="foot-a" href="#">Договір оферти</a>
+      </div>
+    </footer>
   </div>
 </body>
 

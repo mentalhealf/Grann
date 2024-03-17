@@ -34,14 +34,11 @@ body {
   top: -555px;
 }
 
-.social-item {
-
-}
 
 .social-p {
-    position: relative;
-    left: 832px;
-    top: -770px;
+  position: relative;
+  left: 832px;
+  top: -770px;
 }
 
 .nav-a {
@@ -483,6 +480,16 @@ body {
   width: 100%;
 }
 
+.q-h2 {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(112, 90, 102);
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 104px;
+  letter-spacing: 0%;
+}
+
 .inst-h2 {
   text-align: center;
   font-family: cursive;
@@ -603,4 +610,59 @@ body {
   margin-left: 100px;
   margin-right: -58px;
   margin-bottom: 100px;
+}
+
+/* acordion */
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  width: 1028px;
+}
+
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-title {
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(112, 90, 102);
+
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content p {
+  margin: 0;
+  color: rgb(112, 90, 102);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.arrow {
+  float: right;
+}
+
+.arrow-icon {
+  width: 54px;
+  height: 52px;
+  fill: #705a66;
 }

@@ -2,6 +2,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.main {
+  position: relative;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+
+
 .container {
   width: 1240px;
   margin: 0 auto;
@@ -32,6 +45,7 @@ body {
   position: relative;
   left: 1101px;
   top: -555px;
+  width: 50px;
 }
 
 
@@ -39,6 +53,7 @@ body {
   position: relative;
   left: 832px;
   top: -770px;
+  width: 284px;
 }
 
 .nav-a {
@@ -56,6 +71,7 @@ body {
 .desert-section {
   background-color: #f5eee0;
   margin-top: -46px;
+  height: 773px;
 }
 
 .author-desert {
@@ -67,13 +83,13 @@ body {
 
 .cream-spoon {
   position: absolute;
-  left: 816px;
+  left: 450px;
 }
 
 .shu {
   position: absolute;
-  top: 194px;
-  left: 417px;
+  top: 177px;
+  left: 130px
 }
 
 .cake {
@@ -93,6 +109,7 @@ body {
   list-style: none;
   padding-left: 0;
   gap: 30px;
+  margin-top: 229px;
 }
 
 .food-a {
@@ -188,6 +205,11 @@ body {
   margin: 0 auto;
   display: block;
   margin-top: 107px;
+}
+
+.why-section {
+  background-color: #F5EEE0;
+  position: relative;
 }
 
 .why-list {
@@ -366,6 +388,7 @@ body {
   position: relative;
   left: 688px;
   top: -688px;
+  width: 331px;
 }
 
 .anna-img {
@@ -665,4 +688,51 @@ body {
   width: 54px;
   height: 52px;
   fill: #705a66;
+}
+
+/* waves */
+.custom-shape-divider-top-1711279256 {
+  position: absolute;
+  top: 773px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1711279256 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 238px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1711279256 .shape-fill {
+  fill: #F5EEE0;
+}
+
+
+.custom-shape-divider-bottom-1711283766 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  top: 1px;
+}
+
+.custom-shape-divider-bottom-1711283766 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 371px;
+  z-index: 5;
+}
+
+.custom-shape-divider-bottom-1711283766 .shape-fill {
+  fill: #F5EEE0;
 }
